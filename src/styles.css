@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10%;
+    height: 100vh;
+
+    background-image: url("./assets/table-seating-restaurant-food-drink-3cbfaa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#content {
+    display: grid;
+    gap: 10%;
+    max-width: 70%;
+    min-width: 30%;
+    height: 50%;
+}
+
+#logo, #hours, #location {
+    background-image: url("./assets/schachbrett-muster-hintergrund-1659182906L2X.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1, h2, ul, p {
+    justify-self: center;
+    color: rgb(192, 94, 94);
+}
