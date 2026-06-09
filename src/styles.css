@@ -19,14 +19,43 @@ body {
     height: 50%;
 }
 
-#logo, #hours, #location {
+#logo, #hours, #location, #header, #menu-container, #about-container, #list {
     background-image: url("./assets/schachbrett-muster-hintergrund-1659182906L2X.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-h1, h2, ul, p {
+#list, #header, #about-container {
+    height: 50%;
+}
+
+li:first-child {
+    margin-top: 1rem;
+}
+
+#list {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    gap: 25%;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+    background-color: rgb(192, 94, 94);
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, ul, li, p {
     justify-self: center;
     color: rgb(192, 94, 94);
 }

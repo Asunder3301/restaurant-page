@@ -9,6 +9,9 @@ export function displayAbout() {
     container.appendChild(header);
 
     const aboutContainer = document.createElement("div");
+    aboutContainer.id = "about-container"
     const about = document.createElement("p");
     about.textContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, quia debitis facere velit voluptates quae explicabo quos sit nemo dolorum optio. Optio tenetur exercitationem eveniet voluptate nemo porro dignissimos fugit."
+    aboutContainer.appendChild(about);
+    container.appendChild(aboutContainer)
 }

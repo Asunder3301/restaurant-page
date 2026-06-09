@@ -9,9 +9,10 @@ export function displayMenu() {
     container.appendChild(header);
 
     const menuContainer = document.createElement("div");
-    menuContainer.id = "menu";
+    menuContainer.id = "menu-container";
 
     const list = document.createElement("ul");
+    list.id = "list";
     const pizza = document.createElement("li");
     pizza.textContent = "Pizza";
     list.appendChild(pizza);
